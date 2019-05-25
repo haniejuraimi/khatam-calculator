@@ -19,7 +19,7 @@
               <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="home.html">Home</a></li>
                 <li><a href="#secondsection">By Pages</a></li>
-                <li><a href="bydays.html">By Days</a></li>
+                <li><a href="#thirdsection">By Days</a></li>
               </ul>
             </div>
           </nav>
@@ -28,16 +28,17 @@
             <h1> Khatam Calculator</h1>
             <h5> This is a simple web app that helps you gauge how long it will take for you to khatam the Quran </h5>
             <br>
-            <a class="waves-effect waves-light btn-large deep-purple lighten-3">By Pages </a>
+            <a class="waves-effect waves-light btn-large deep-purple lighten-3"> By Pages </a>
+            <a class="waves-effect waves-light btn-large deep-purple lighten-3"> By Days </a>
         </div>
 
-        <div id="secondsection" class="center-align container">
+      <div id="secondsection" class="center-align container">
                 <h1> By Pages </h1>
                 <h5> Find out how many days it will take to khatam by specifying how many pages you plan to read daily </h5>
                 <br>
         <div class="row">
             <div class="input-field">
-                <input value="Alvin" id="first_name2" type="number" class="validate">
+                <input id="first_name2" type="number" class="validate">
                 <label class="active" for="first_name2">Number of pages</label>
                 <span class="helper-text">Enter the number of pages you plan to read in a day </span>
                 <br>
@@ -54,32 +55,54 @@
          </div>
         </div>
 
-        <div class="footersection">
-             <footer class="page-footer deep-purple lighten-3">
-                    <div class="container">
-                        <div class="row">
-                        <div class="col l6 s12">
-                            <h5 class="white-text">Footer Content</h5>
-                            <p class="grey-text text-lighten-4">This is a coding project that was done during a Code Hero session to gauge how long it will take for one to khatam the Quran. </p>
-                         </div>
-                         <div class="col l4 offset-l2 s12">
-                            <h5 class="white-text">My Other Apps</h5>
-                            <ul>
-                                <li><a class="grey-text text-lighten-3" href="https://haniejuraimi.github.io/calculator/">Basic Calculator</a></li>
-                                <li><a class="grey-text text-lighten-3" href="https://haniejuraimi.github.io/grade-calculator/">Grade Calculator</a></li>
-                            </ul>
-                        </div>
-                         </div>
-                    </div>
-                        <div class="footer-copyright">
-                          <div class="container">
-                         <p> © 2019 Code Hero Project by Hanie Alia</p>
-                          <a class="grey-text text-lighten-4 right" href="github.com/haniejuraimi">My Github</a>
-                          </div>
-                        </div>
-                      </footer>
-                          
+      <div id="thirdsection" class="center-align container">
+          <h1> By Days </h1>
+          <h5> Find out how many pages it will take to khatam by specifying how many days you plan to read </h5>
+          <br>
+    <div class="row">
+      <div class="input-field">
+          <input id="first_name3" type="number" class="validate">
+          <label class="active" for="first_name3">Number of days</label>
+          <span class="helper-text">Enter the number of days you plan to khatam  </span>
+          <br>
+          <button class="btn waves-effect waves-light btn-large deep-purple lighten-3" type="submit" name="action" onclick="calculatePagesNeeded()">Calculate 
+                  <i class="material-icons right">send</i>
+          </button>
+      <div class="row">
+        <br>
+          <div class="card-panel deep-purple lighten-5">
+            <span class="black-text" id="result1">Your results will display here after you click the 'Calculate' button.</span>
+          </div>
+          </div>
+       </div>
+      </div>
+    </div>
+
+  <div class="footersection">
+    <footer class="page-footer deep-purple lighten-3">
+        <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                  <h5 class="white-text">Footer Content</h5>
+                  <p class="grey-text text-lighten-4">This is a coding project that was done during a Code Hero session to gauge how long it will take for one to khatam the Quran. </p>
+              </div>
+            <div class="col l4 offset-l2 s12">
+                  <h5 class="white-text">My Other Apps</h5>
+                      <ul>
+                          <li><a class="grey-text text-lighten-3" href="https://haniejuraimi.github.io/calculator/">Basic Calculator</a></li>
+                          <li><a class="grey-text text-lighten-3" href="https://haniejuraimi.github.io/grade-calculator/">Grade Calculator</a></li>
+                      </ul>
+            </div>
+            </div>
         </div>
+         <div class="footer-copyright">
+            <div class="container">
+               <p> © 2019 Code Hero Project by Hanie Alia</p>
+               <a class="grey-text text-lighten-4 right" href="github.com/haniejuraimi">My Github</a>
+            </div>
+         </div>
+   </footer>
+ </div>
 
 
     <!-- Compiled and minified JavaScript -->

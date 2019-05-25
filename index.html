@@ -41,13 +41,13 @@
                 <label class="active" for="first_name2">Number of pages</label>
                 <span class="helper-text">Enter the number of pages you plan to read in a day </span>
                 <br>
-                <button class="btn waves-effect waves-light btn-large deep-purple lighten-3" type="submit" name="action">Calculate 
+                <button class="btn waves-effect waves-light btn-large deep-purple lighten-3" type="submit" name="action" onclick="calculateDaysNeeded()">Calculate 
                         <i class="material-icons right">send</i>
                 </button>
              <div class="row">
                 <br>
                     <div class="card-panel deep-purple lighten-5">
-                         <span class="black-text">Your results will display here after you click the 'Calculate' button.</span>
+                         <span class="black-text" id="result">Your results will display here after you click the 'Calculate' button.</span>
                     </div>
                 </div>
              </div>
@@ -84,6 +84,7 @@
 
     <!-- Compiled and minified JavaScript -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script src="main.js"></script>
     </body>
   </html>
         

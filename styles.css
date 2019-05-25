@@ -1,0 +1,15 @@
+#firstsection {
+    padding-top: 10%;
+    min-height: 100vh;
+    background-color: rgb(248, 231, 251);
+}
+
+#secondsection {
+    padding-top: 10%;
+    min-height: 100vh;
+    background-color:white;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
